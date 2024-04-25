@@ -1,0 +1,88 @@
+﻿/*ul{
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+    background-color:gray;
+    overflow:hidden;
+}
+ li a {
+    float: left;
+    text-decoration: none;
+    padding:15px;
+    color:white;
+}
+a:hover{
+    background-color:#3076e4
+}*/
+
+/*-------------------------Main---------------------------------------*/
+body {
+    background-color: black;
+    /*background-image: url('../Image/pic_trulli.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;*/
+}
+ol {
+    list-style-type: none;
+    background-color: darkslategrey;
+    overflow: hidden;
+}
+
+a:hover {
+    background-color: #3076e4;
+}
+
+li a {
+    float: left;
+    padding: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+
+/*-------------------------Div---------------------------------------*/
+.title {
+    font-size: 100%;
+    font-family: Algerian;
+    color:white;
+}
+
+div.mycontainer {
+    width: 100%;
+    overflow: auto;
+}
+
+    div.mycontainer div {
+        width: 30%;
+        float: left;
+    }
+
+.inline-block div {
+    width: 30%;
+    display: inline-block;
+}
+
+.flex {
+    display: flex;
+}
+
+    .flex > div {
+        width: 33%;
+    }
+
+.grid-template-columns {
+    display: grid;
+    grid-template-columns: 20% 13% 13%;
+    border: 2px solid gray;
+    grid-gap:6px;
+}
+.ab1 {
+    background-color: #FFF4A3;
+  
+}
+.ab2 {
+    background-color: #FFC0C7;
+}
+
+/*-----------------------------Image-----------------------------------*/
